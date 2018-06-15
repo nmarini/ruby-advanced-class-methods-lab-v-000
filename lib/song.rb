@@ -17,13 +17,13 @@ class Song
   end
 
   def self.new_by_name(name)
-   song = create
+   song = self.create
    song.name = name
    song
 
  end
 
- def self.creaete_by_name(name)
+
 
 
 
